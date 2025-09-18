@@ -2,6 +2,7 @@
 
 int main()
 {
+    // harga dan diskon
     int hargaHP = 1000000, hargaLaptop = 5000000, hargaPower = 100000;
     float diskonHP = 0.15, diskonLaptop = 0.05, diskonPower = 0.20;
 

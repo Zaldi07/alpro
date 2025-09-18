@@ -2,6 +2,7 @@
 
 int main()
 {
+    // harga bensin dan konsumsi bensi
     int hargaBensin = 10000;
     float konsumsiPerKM = 0.1;
 

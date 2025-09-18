@@ -2,8 +2,10 @@
 #include <stdlib.h>
 int main()
 {
+    // deklarasi variabel
     int jmlSweater, jmlGamis, jmlJaket, total_pesanan, total_setelah_diskon;
     float diskon = 0.1;
+    // inputan
     printf("Masukan jumlah pesanan\n");
     printf("Sweater (50.000): ");
     scanf("%d", &jmlSweater);

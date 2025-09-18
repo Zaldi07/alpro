@@ -20,9 +20,7 @@ int main()
     scanf("%d", &jmlBahasa);
 
     // Hitung total
-    int total = (jmlOlahraga * hargaOlahraga) +
-                (jmlPKN * hargaPKN) +
-                (jmlBahasa * hargaBahasa);
+    int total = (jmlOlahraga * hargaOlahraga) + (jmlPKN * hargaPKN) + (jmlBahasa * hargaBahasa);
 
     // Output total pembelian
     printf("\nTotal pembelian: Rp. %d\n", total);
