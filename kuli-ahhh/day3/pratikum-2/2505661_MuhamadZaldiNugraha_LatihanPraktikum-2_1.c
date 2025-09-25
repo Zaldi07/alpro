@@ -6,14 +6,16 @@ int main()
     printf("silahkan pilih menu di bawah ini guys\n");
     printf("1. matcha \n");
     printf("2. bundle (matcha + thai tea)\n");
+    printf("Masukan pilihan anda :");
+    scanf("%d", &pilihan);
     if (pilihan == 1)
     {
-        printf("selamat anda mendapatkan diskon\n");
+        printf("Maaf anda tidak mendapatkan diskon guys\n");
     }
     else
     {
 
-        printf("maaf anda tidak mendapatkan diskon guys\n");
+        printf("Selamat anda mendapatkan diskon\n");
     }
 
     return 0;

@@ -1,14 +1,18 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int lama, biaya;
 
     printf("Masukkan lama parkir (jam): ");
     scanf("%d", &lama);
 
-    if (lama <= 2) {
+    if (lama <= 2)
+    {
         biaya = 5000;
-    } else {
+    }
+    else
+    {
         biaya = 10000;
     }
 

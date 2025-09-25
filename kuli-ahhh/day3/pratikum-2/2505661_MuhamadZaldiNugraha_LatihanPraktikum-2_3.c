@@ -1,19 +1,26 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int nilai;
 
     printf("Masukkan nilai akhir: ");
     scanf("%d", &nilai);
 
-    if (nilai >= 70) {
+    if (nilai >= 70)
+    {
         printf("Lulus\n");
-        if (nilai >= 90) {
+        if (nilai >= 90)
+        {
             printf("Lulus dengan predikat A\n");
-        } else {
+        }
+        else
+        {
             printf("Lulus dengan predikat B\n");
         }
-    } else {
+    }
+    else
+    {
         printf("Tidak lulus\n");
     }
 
