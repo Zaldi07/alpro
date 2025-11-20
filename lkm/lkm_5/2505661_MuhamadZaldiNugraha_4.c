@@ -77,10 +77,11 @@ int main()
     printf("Sisa tiket : %d\n", stokTiket);
     printf("Jumlah Customer : %d\n", pembeli);
     printf("Tiket terjual : %d\n", tiketTerjual);
-    printf("Total Penjualan : %d\n", totalPenjualan);
+    printf("Total Penjualan : Rp%d\n\ ", totalPenjualan);
 
     // rincian penjualan
-    printf("Rincian Penjualan:\n") for (int i = 0; i < pembeli; i++)
+    printf("Rincian Penjualan:\n");
+    for (int i = 0; i < pembeli; i++)
     {
         printf("%d. %s = %d tiket (Rp%d)\n", i + 1, namaPembeli[i], jumlahPembelian[i], jumlahPembelian[i] * 35000);
     }
