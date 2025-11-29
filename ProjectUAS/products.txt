@@ -1,0 +1,5 @@
+C1;Espresso;15000;47
+C2;Americano;18000;38
+C3;Cappuccino;22000;35
+C4;Latte;23000;30
+C5;Kopi Susu Gula Aren;20000;60
